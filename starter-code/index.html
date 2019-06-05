@@ -6,13 +6,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>npm</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
   <!-- Your code goes here -->
-  <p>Nigeria Prince Meme</p>
 
-  <nav>
+  <nav id="nav-red">
+    <div id="top-left">
+      <p>Neophobe Plebeian Mupsimus</p>
+    </div>
     <ul>
       <li><a href="">npm Enterprise</a></li>
       <li><a href="">features</a></li>
@@ -23,14 +26,22 @@
   </nav>
 
   <div id="sessao1">
-    <nav>
-      <img src="images/npm-logo.png" alt="">
-      <input type="search" name="" id="" placeholder="find packages">
-      <input type="button" value="pesquisar">
-      <ul>
-        <li><a href="">sign up</a> or <a href="">log in</a></li>
-        <li><img src="images/bear-logo.png" alt=""></li>
-      </ul>
+    <nav id="nav-logo">
+      <div id="div-logo">
+        <img src="images/npm-logo.png" alt="">
+      </div>
+
+      <div id="div-search">
+        <input id="field-search" type="search" name="" placeholder="find packages">
+        <input id="button-search" type="button" value="pesquisar">
+      </div>
+
+      <div id="div-login">
+        <ul>
+          <li><a href="">sign up</a> or <a href="">log in</a></li>
+        </ul>
+        <img src="images/bear-logo.png" alt="">
+      </div>
     </nav>
 
     <div id="conteudo1">
@@ -79,21 +90,22 @@
     <div id="grupo1">
       <img src="images/binoculars.svg" alt="">
       <h3>Find</h3>
-      <p>Libraries like <a href="">Jquery</a>, <a href="">Bootstrap</a>, <a href="">React</a>, and <a
-          href="">Angular</a> and components from frameworks such as <a href="">Ember</a></p>
+      <p class="texto-grupo">Libraries like <a href="">Jquery</a>, <a href="">Bootstrap</a>, <a href="">React</a>, and
+        <a href="">Angular</a> and components from frameworks such as <a href="">Ember</a></p>
     </div>
 
     <div id="grupo2">
       <img src="images/mountain-flag.svg" alt="">
       <h3>Discover</h3>
-      <p>Packages for mobile, IoT, front end, back end, robotics... everything you need to start building amazing
+      <p class="texto-grupo">Packages for mobile, IoT, front end, back end, robotics... everything you need to start
+        building amazing
         things.</p>
     </div>
 
     <div id="grupo3">
       <img src="images/backpack.svg" alt="">
       <h3>Build</h3>
-      <p>Assenble packages like building blocks to quickly develop awesome new projects.</p>
+      <p class="texto-grupo">Assenble packages like building blocks to quickly develop awesome new projects.</p>
     </div>
   </div>
 

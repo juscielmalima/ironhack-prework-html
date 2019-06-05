@@ -1,0 +1,237 @@
+body {
+    /* background-color: red; */
+    margin: 0;
+}
+
+/* NAV VERMELHO */
+#nav-red {
+    background-color: #C1312B;
+    padding: 0 20px 0 20px;
+    color: white;
+}
+
+#nav-red #top-left {
+    display: inline-block;
+}
+
+#nav-red ul {
+    float: right;
+    display: inline-block;
+}
+
+#nav-red ul li {
+    display: inline-block;
+    padding: 0 5px;
+}
+
+#nav-red ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+/* SESSAO1 - NAV LOGO */
+
+#sessao1 {
+    border: 1px solid blue;
+    /* background-image: url("./images/buildings-and-billboard.png"); */
+    background-color: #205A7A;
+    height: 500px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#nav-logo {
+    padding: 0;
+    width: 100%;
+    display: inline-block;
+}
+
+#nav-logo #div-logo {
+    width: 10%;
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#nav-logo #div-logo img {
+    width: 100px;
+}
+
+#nav-logo #div-search {
+    width: 65%;
+    float: left;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#nav-logo #div-search #field-search {
+    width: 80%;
+    height: 30px;
+}
+
+#nav-logo #div-search #button-search {
+    height: 30px;
+}
+
+#nav-logo #div-login {
+    color: white;
+    width: 20%;
+    float: right;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#nav-logo #div-login ul {
+    float: left;
+    margin-top: 0;
+    padding: 0;
+}
+
+#nav-logo #div-login ul li {
+    list-style: none;
+}
+
+#nav-logo #div-login ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+
+#nav-logo #div-login img {
+    width: 30px;
+    float: right;
+    margin-right: 100px;
+}
+
+/* SESSAO 1 - CONTEUDO 1 */
+
+#sessao1 #conteudo1 {
+    width: 50%;
+    color: white;
+    margin-left: 150px;
+}
+
+#sessao1 #conteudo1 h1 {
+    font-size: 50px;
+}
+
+#sessao1 #conteudo1 p {
+    font-size: 20px;
+}
+
+#sessao1 #conteudo1 button {
+    font-size: 20px;
+    color: white;
+    background-color: #F38F37;
+    border-radius: 20px;
+    border: 0px solid transparent;
+    padding: 10px;
+}
+
+/* SESSAO 2 - */
+
+#sessao2 {
+    background-color: #263546;
+    height: 500px;
+}
+
+#sessao2 img {
+    width: 40%;
+    float: left;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#sessao2 #conteudo2 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 50%;
+    color: white;
+    float: right;
+}
+
+#sessao2 #conteudo2 h1 {
+    font-size: 50px;
+}
+
+#sessao2 #conteudo2 p {
+    font-size: 20px;
+}
+
+#sessao2 #conteudo2 p a {
+    text-decoration: none;
+    color: white;
+}
+
+#sessao2 #conteudo2 button {
+    font-size: 20px;
+    color: white;
+    background-color: #CC3737;
+    border-radius: 20px;
+    border: 0px solid transparent;
+    padding: 10px;
+}
+
+/* SESSAO 3 -  */
+
+#sessao3 {
+    background-color: #2280B6;
+    height: 500px;
+    background-size: 100%;
+
+}
+
+#sessao3 #conteudo3 {
+    padding-top: 50px;
+    color: white;
+    margin-left: 150px;
+    padding-bottom: 50px;
+    width: 30%;
+}
+
+#sessao3 #conteudo3 h1 {
+    margin: 0;
+    font-size: 50px;
+}
+
+#sessao3 #conteudo3 p {
+    font-size: 20px;
+}
+
+#sessao3 #conteudo3 button {
+    font-size: 20px;
+    color: white;
+    background-color: #263546;
+    border-radius: 20px;
+    border: 0px solid transparent;
+    padding: 10px;
+}
+
+#sessao4 {
+    height: 500px;
+    background-color: white;
+    color: rgb(85, 79, 79);
+}
+
+#sessao4 #conteudo4 {
+    width: 100%;
+    text-align: center;
+}
+
+#grupo1,
+#grupo2,
+#grupo3 {
+    width: 33%;
+    float: left;
+    text-align: center;
+}
+
+#sessao4 .texto-grupo {
+    padding: 0 10px;
+}
+
+#sessao4 .texto-grupo a {
+    text-decoration: none;
+    color: red;
+}
