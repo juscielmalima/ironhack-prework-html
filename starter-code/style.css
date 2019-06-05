@@ -1,17 +1,34 @@
 body {
-    /* background-color: red; */
     margin: 0;
 }
 
 /* NAV VERMELHO */
 #nav-red {
     background-color: #C1312B;
-    padding: 0 20px 0 20px;
+    padding: 0 30px 0 30px;
+    margin: 0 0 0 0;
     color: white;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 #nav-red #top-left {
     display: inline-block;
+    margin: 0;
+    padding: 0px;
+}
+
+#nav-red #top-left .heart {
+    text-decoration: none;
+    color: white;
+    float: left;
+    padding: 20px;
+}
+
+#nav-red #top-left .acronym {
+    display: inline-block;
+    padding: 0 10px;
+    margin-top: 20px;
 }
 
 #nav-red ul {
@@ -27,23 +44,26 @@ body {
 #nav-red ul li a {
     text-decoration: none;
     color: white;
+
+
 }
 
 /* SESSAO1 - NAV LOGO */
 
 #sessao1 {
     border: 1px solid blue;
-    /* background-image: url("./images/buildings-and-billboard.png"); */
     background-color: #205A7A;
     height: 500px;
-    background-size: 100%;
-    background-repeat: no-repeat;
+    background-image: url("./images/city-scape.svg");
+    background-size: cover;
 }
+
 
 #nav-logo {
     padding: 0;
     width: 100%;
     display: inline-block;
+    text-align: center;
 }
 
 #nav-logo #div-logo {
@@ -70,16 +90,29 @@ body {
     height: 30px;
 }
 
-#nav-logo #div-search #button-search {
-    height: 30px;
+#nav-logo #div-search #field-search {
+    height: 40px;
+    background-color: #1F5371;
+    width: 95%;
+    padding: 10px;
+    border: 1px solid gray;
 }
+
+#nav-logo #div-search #button-search {
+    height: 40px;
+    width: 35px;
+    background-color: #1F5371;
+    border: 1px solid gray;
+    color: white;
+}
+
 
 #nav-logo #div-login {
     color: white;
     width: 20%;
     float: right;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-bottom: 40px;
 }
 
 #nav-logo #div-login ul {
@@ -89,12 +122,14 @@ body {
 }
 
 #nav-logo #div-login ul li {
+    font-size: 20px;
     list-style: none;
 }
 
 #nav-logo #div-login ul li a {
     text-decoration: none;
     color: white;
+    font-size: 20px;
 }
 
 
@@ -114,10 +149,13 @@ body {
 
 #sessao1 #conteudo1 h1 {
     font-size: 50px;
+    font-weight: 300;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
 #sessao1 #conteudo1 p {
-    font-size: 20px;
+    font-size: 25px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
 #sessao1 #conteudo1 button {
@@ -130,16 +168,16 @@ body {
 }
 
 /* SESSAO 2 - */
-
 #sessao2 {
     background-color: #263546;
     height: 500px;
 }
 
 #sessao2 img {
-    width: 40%;
+    width: 30%;
     float: left;
-    padding-top: 50px;
+    margin-left: 100px;
+    padding-top: 100px;
     padding-bottom: 50px;
 }
 
@@ -149,14 +187,18 @@ body {
     width: 50%;
     color: white;
     float: right;
+    font-size: 20px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
 #sessao2 #conteudo2 h1 {
     font-size: 50px;
+    font-weight: 300;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
 #sessao2 #conteudo2 p {
-    font-size: 20px;
+    font-size: 25px;
 }
 
 #sessao2 #conteudo2 p a {
@@ -174,12 +216,11 @@ body {
 }
 
 /* SESSAO 3 -  */
-
 #sessao3 {
     background-color: #2280B6;
     height: 500px;
-    background-size: 100%;
-
+    background-size: cover;
+    background-image: url("./images/forklift.svg");
 }
 
 #sessao3 #conteudo3 {
@@ -193,10 +234,13 @@ body {
 #sessao3 #conteudo3 h1 {
     margin: 0;
     font-size: 50px;
+    font-weight: 300;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
 #sessao3 #conteudo3 p {
     font-size: 20px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
 #sessao3 #conteudo3 button {
@@ -212,6 +256,7 @@ body {
     height: 500px;
     background-color: white;
     color: rgb(85, 79, 79);
+    padding: 50px;
 }
 
 #sessao4 #conteudo4 {
@@ -222,13 +267,15 @@ body {
 #grupo1,
 #grupo2,
 #grupo3 {
-    width: 33%;
+    margin-top: 30px;
+    width: 32%;
     float: left;
     text-align: center;
 }
 
 #sessao4 .texto-grupo {
-    padding: 0 10px;
+    padding: 0 95px;
+
 }
 
 #sessao4 .texto-grupo a {
